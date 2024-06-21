@@ -14,21 +14,15 @@
   <body>
     <div class="container">
       <div class="text-bg-info p-3">ToDo Application</div>
-      <ol class="list-group">
-        <li class="list-group-item">
-          <input type="checkbox" id="checkbox" />
-          <span>Task Title</span>
-          <span class="badge text-bg-secondary">22H14</span>
-        </li>
-      </ol>
+      <ol class="list-group" id="listTask"></ol>
       <br /><br />
-      <input type="text" class="form-control" />
+      <input hidden id="inpNewTask" type="text" class="form-control" />
       <br /><br />
       <center>
-        <button class="btn btn-dark">Add a Task</button>
-        <button class="btn btn-dark">Cancel</button>
+        <button id="btnAdd" class="btn btn-dark">Add a Task</button>
+        <button id="btnCancel" hidden class="btn btn-dark">Cancel</button>
       </center>
     </div>
-    <script src="asynchrone.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
